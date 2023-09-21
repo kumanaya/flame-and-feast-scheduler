@@ -9,7 +9,7 @@ export default function SchedulePage(props: ScheduleLayoutProps) {
   const { children, ...rest } = props;
 
   return (
-    <div className="flex flex-col" style={{ backgroundColor: "#222222" }}>
+    <div className="flex flex-col w-screen h-fit" style={{ backgroundColor: "#222222" }}>
       <div className="flex flex-col items-center justify-center w-full h-full">
         {children}
       </div>

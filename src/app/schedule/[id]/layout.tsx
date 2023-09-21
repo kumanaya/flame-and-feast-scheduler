@@ -9,8 +9,8 @@ export default function SchedulePage(props: ScheduleLatoutProps) {
   const { children, ...rest } = props;
 
   return (
-    <div className="flex flex-col sm:h-fit md:h-screen" style={{ backgroundColor: "#222222" }}>
-      <div className="flex flex-col items-center justify-center w-full h-full">
+    <div className="flex flex-col w-screen h-fit" style={{ backgroundColor: "#222222" }}>
+      <div className="flex flex-col items-center justify-center w-screen h-screen">
         {children}
       </div>
       <div className="flex flex-col items-center justify-center pb-8">

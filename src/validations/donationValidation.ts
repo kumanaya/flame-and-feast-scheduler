@@ -9,12 +9,10 @@ const donationSchema = Joi.object({
     "any.required": "O campo é obrigatório.",
   }),
   donatedAmount: Joi.number()
-    .valid(50, 100)
     .required()
     .messages({
       "number.base": "O campo deve ser um número.",
       "number.empty": "O campo não pode estar vazio.",
-      "number.valid": "O campo deve ser 50 ou 100.",
       "any.required": "O campo é obrigatório.",
     }),
 });

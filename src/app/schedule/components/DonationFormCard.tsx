@@ -46,7 +46,7 @@ const DonationFormCard: React.FC<DonationFormCardProps> = ({ onAddRow }) => {
   const handleFormSubmit = handleSubmit(addRow);
 
   return (
-    <div className="bg-white p-4 rounded-lg shadow-md text-black">
+    <div className="bg-white p-4 rounded-lg shadow-md text-black h-min		">
       <div className="flex flex-col space-y-4">
         <form onSubmit={handleFormSubmit}>
           <div className="mb-4">

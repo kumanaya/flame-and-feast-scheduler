@@ -10,7 +10,7 @@ export default function HomeLayout(props: HomeLayoutProps) {
 
   return (
     <div
-      className="flex flex-col h-screen  p-14"
+      className="flex flex-col w-screen sm:h-fit md:h-screen p-14"
       style={{ backgroundColor: "#222222" }}
     >
       <div className="flex flex-col items-center justify-center w-full h-full">
